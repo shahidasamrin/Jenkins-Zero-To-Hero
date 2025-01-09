@@ -17,5 +17,11 @@ pipeline {
         sh 'node --version'
       }
     }
+    stage('build') {
+            steps {
+                echo "Hello World!"
+            }
+        }
   }
 }
+
